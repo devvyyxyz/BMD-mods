@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml.gz
+Sitemap: https://devvyyxyz.github.io/BMD-mods/sitemap.xml.gz
