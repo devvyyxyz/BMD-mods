@@ -1,3 +1,6 @@
+---
+layout: page
+---
 MIT License
 
 Copyright (c) 2024 DevvyyXYZ

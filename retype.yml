@@ -52,11 +52,11 @@ url: https://devvyyxyz.github.io/BMD-mods             # The base URL of your web
 # -----------------------------------------------------------------------------
 
 branding:
-  title: Example              # Your custom website title; keep it short
-  logo: /logo.png             # Path to a logo file
-  logoDark: /logo-dark.png    # Path to a logo file to use in dark mode
+  title: BMFD Mods          # Your custom website title; keep it short
+  logo:             # Path to a logo file
+  logoDark:    # Path to a logo file to use in dark mode
   logoAlign: right            # Align the logo to the right or the left
-  label: Docs                 # Optional label
+  label: DOCS                 # Optional label
                               # To remove the label, remove this config
   colors:
     label:                    # Label colors
@@ -69,16 +69,19 @@ links:                        # Custom links to add to the top bar
                               # See also: footer.links
 - text: Old guides
   link: https://botmakerfordiscord.gitbook.io/manual
+  icon: bookmark-fill
 - text: Steam guides
   link: https://steamcommunity.com/sharedfiles/filedetails/?id=3045684418
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png
 - text: Discord Server
   link: https://discord.gg/k8npSHv2Cz
+  icon: home-fill
 - text: Download
   link: https://store.steampowered.com/app/2592170/Studio_Bot_Maker/
+  icon: download
 - text: BMFD manager
   link: https://github.com/qizzle/bmdm
+  icon: database
                               # a path to a file
   iconAlign: left           # Icon alignment, to the left or right
   target: blank             # Custom target
@@ -90,8 +93,10 @@ footer:
   copyright: "© All rights reserved." # A custom copyright statement
   links:                      # A list of links to include in the footer
                               # See also: links
-    - text: License           # The text to use for the link
-      link: license.md        # Point to an internal file or external URL
+    - text: License
+      link: LICENSE.md
+    - text: Code of conduct
+      link: CODE_OF_CONDUCT.md
 
 # -----------------------------------------------------------------------------
 
@@ -165,7 +170,7 @@ markdown:                     # Markdown configuration options
 # -----------------------------------------------------------------------------
 
 meta:
-  title: " | Widgets"         # Appended to the <title> element on all pages
+  title: " | Bot Maker 4 Discord"         # Appended to the <title> element on all pages
 
 # -----------------------------------------------------------------------------
 
@@ -178,7 +183,7 @@ search:                       # Custom configuration of the website search
   mode: full                  # The search index creation mode
                               # Options include: full | partial | basic
   noResultsFoundMsg: "No results" # Message when no results are found
-  placeholder: Search         # Placeholder text used in the input field
+  placeholder: Search for something...       # Placeholder text used in the input field
 
 # -----------------------------------------------------------------------------
 
