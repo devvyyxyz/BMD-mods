@@ -4,7 +4,7 @@ label: Replit
 description: 
 layout: defualt
 categories: [hosting]
-tags: [hosting]
+tags: [hosting, freehost]
 expanded: true
 visibility: public
 ---

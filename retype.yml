@@ -146,7 +146,7 @@ generator:
 
 include:                      # Files or folders to include in the build
                               # See also: exclude
-  - "*.py"                    # Wildcards are valid
+  - "*.js"                    # Wildcards are valid
 
 # -----------------------------------------------------------------------------
 
@@ -165,7 +165,7 @@ integrations:
 # -----------------------------------------------------------------------------
 
 markdown:                     # Markdown configuration options
-  lineBreaks: soft            # Switch between `soft` and `hard` line breaks
+  lineBreaks: hard            # Switch between `soft` and `hard` line breaks
 
 # -----------------------------------------------------------------------------
 

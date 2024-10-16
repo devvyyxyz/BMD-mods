@@ -4,7 +4,7 @@ label: Heroku
 description: 
 layout: defualt
 categories: [hosting]
-tags: [hosting]
+tags: [hosting, freehost, paidhost]
 expanded: true
 visibility: public
 ---
