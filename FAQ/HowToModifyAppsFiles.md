@@ -1,8 +1,10 @@
 ---
+icon: apps
+label: How to modify app files?
 description: 
 layout: defualt
 categories: [faq]
-tags: [faq, modding]
+tags: [faq]
 expanded: true
 visibility: public
 ---

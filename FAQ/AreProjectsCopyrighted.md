@@ -1,4 +1,6 @@
 ---
+icon: apps
+label: Are projects copyrighted?
 description: 
 layout: defualt
 categories: [faq]
