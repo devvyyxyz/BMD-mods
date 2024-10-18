@@ -6,7 +6,7 @@ layout: defualt
 categories: [faq]
 tags: [faq, pros, cons]
 expanded: true
-order: 2
+order: 100
 visibility: public
 ---
 # Why Choose Bot Maker for Discord

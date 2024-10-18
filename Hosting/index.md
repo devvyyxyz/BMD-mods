@@ -1,9 +1,11 @@
 ---
+icon: server
 description: 
 layout: defualt
 categories: [hosting]
 tags: [hosting]
 expanded: true
+order: 95
 visibility: public
 ---
 !!!Primary Note

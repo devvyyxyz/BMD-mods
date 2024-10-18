@@ -1,11 +1,12 @@
 ---
-icon: code
+icon: law
 label: Is BMD DRM protected?
 description: 
 layout: defualt
 categories: [faq]
 tags: [faq]
 expanded: true
+order: 99
 visibility: public
 ---
 # Is BMD DRM protected?

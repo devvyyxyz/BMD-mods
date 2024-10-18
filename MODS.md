@@ -1,5 +1,5 @@
 ---
-icon: cpu
+icon: tools
 label: Creating Mods
 description: 
 layout: defualt
