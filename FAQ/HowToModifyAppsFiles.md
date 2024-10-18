@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: checklist
 label: How to modify app files?
 description: 
 layout: defualt

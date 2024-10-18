@@ -11,26 +11,20 @@ visibility: public
 # Is Linux Supported?
 Bot Maker for Discord is not natively supported on Linux. However, you can still run it using compatibility tools like Wine, Bottles, or Proton.
 
-#### How to Use Bot Maker for Discord on Linux:
+## How to Use Bot Maker for Discord on Linux:
 
 ### Install Wine for Major Linux Distributions
 You can install Wine using the following commands based on your distribution:
 ```bash
-# Ubuntu
+# Ubuntu, Debian, Pop!_OS
 sudo apt install wine
 # Fedora
 sudo dnf install wine
-# Arch Linux
+# Arch Linux, Manjaro
 sudo pacman -S wine
-# Debian
-sudo apt install wine
 # openSUSE
 sudo zypper install wine
-# Manjaro
-sudo pacman -S wine
 # Linux Mint
-sudo apt install wine
-# Pop!_OS
 sudo apt install wine
 ```
 

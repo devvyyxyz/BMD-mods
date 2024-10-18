@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: book
 label: Are projects copyrighted?
 description: 
 layout: defualt
