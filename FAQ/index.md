@@ -1,5 +1,5 @@
 ---
-icon: light-bulb
+icon: question
 description: 
 layout: defualt
 categories: [faq]

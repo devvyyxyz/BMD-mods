@@ -15,7 +15,7 @@ This guide provides detailed instructions on creating mods for Bot Maker for Dis
 Also, please follow the general structure when creating mods. Therefore, add **\_MOD** after your mod name, don't include any additional dots or spaces, and make sure to include the info object within your modded action.
 Feel free to add a short description for your action as seen in [**animeSearch_MOD.js**](https://github.com/RatWasHere/bmods/blob/master/Actions/animeSearch_MOD.js).
 
-## Interface Components
+## :icon-image: Interface Components
 
 - **Separators**: "-"
 - **Variable Inputs**: [Pastebin Link](https://pastebin.com/WUmLP4p8)
@@ -29,7 +29,7 @@ Feel free to add a short description for your action as seen in [**animeSearch_M
 - **Input Groups**: [Pastebin Link](https://pastebin.com/UK537p64)
 - **Inputs**: [Pastebin Link](https://pastebin.com/K3XVipSZ)
 
-## Action Elements
+## :icon-database: Action Elements
 
 - **Actions**:
   ```json
@@ -89,7 +89,7 @@ Feel free to add a short description for your action as seen in [**animeSearch_M
   }
   ```
 
-## Bridge Controls
+## :icon-database: Bridge Controls
 
 - **get**:
   ```javascript
@@ -156,7 +156,7 @@ Feel free to add a short description for your action as seen in [**animeSearch_M
   (blob) :: Blob: Object with these properties: {class, name} - Class: String (Optional) - Name: String :: Any
   ```
 
-## Data Structure
+## :icon-database: Data Structure
 
 - **data**:
   ```json
@@ -171,6 +171,6 @@ Feel free to add a short description for your action as seen in [**animeSearch_M
   }
   ```
 
-## Still Got Questions?
+## :icon-question: Still Got Questions?
 
 Feel free to ask any questions in our [Discord server](https://discord.gg/whtjS7BW3u).

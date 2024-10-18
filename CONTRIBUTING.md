@@ -12,7 +12,7 @@ visibility: public
 
 To contribute your mods to this repository, you can submit a pull request using either the GitHub web interface or your local machine. Follow the steps below for your preferred method.
 
-## Using the Web Interface
+## :icon-globe: Using the Web Interface
 
 1. **Fork the Repository**: Click the "Fork" button in the upper-right corner of this repository to create a personal copy in your GitHub account.
 2. **Navigate to Your Fork**: Once forked, go to your forked repository on GitHub (it will be at `https://github.com/<your-username>/<repo-name>`).
@@ -30,7 +30,7 @@ To contribute your mods to this repository, you can submit a pull request using 
     - Select the branch from your fork that contains your changes.
     - Add a meaningful description of your mod, explaining its functionality or purpose, then submit the pull request.
 
-## Using Your Local Machine (Git & CLI)
+## :icon-command-palette: Using Your Local Machine (Git & CLI)
 
 1. **Fork the Repository**: Fork the original repository by clicking "Fork" in the upper-right corner to create a copy under your GitHub account.
 2. **Clone Your Fork Locally**: Clone your forked repository to your local machine:
@@ -58,7 +58,23 @@ To contribute your mods to this repository, you can submit a pull request using 
     - Select the branch from your fork that contains your mod.
     - Add a detailed description, including what the mod does, why it's useful, and any special instructions for testing or using it. Then submit the PR.
 
-## Important Notes
+## :icon-pencil: Important Notes
 - **Testing**: Be sure to test your mod before submitting it. Ensure it works as expected and doesn’t introduce bugs or issues.
 - **Branch Naming**: When creating a new branch, use a descriptive name that relates to the mod or feature, such as `add-action-mod` or `fix-theme-mod`.
 - **Contributing Guidelines**: If this repository has a `CONTRIBUTING.md` file, make sure to read and follow it before submitting your pull request.
+
+## :icon-repo: Useful Resources
+
+Here are some helpful resources to assist you in contributing to this repository:
+
+- **[Markdown Guide](https://www.markdownguide.org/)**: A comprehensive guide to Markdown, a lightweight markup language for formatting text. Learn how to structure your README files, documentation, and more.
+- **[GitHub Octicons](https://primer.github.io/octicons/)**: GitHub's official icon set, commonly used across GitHub projects. Use these icons to enhance your repository's visual appeal.
+- **[Retype Octicons](https://retype.com/components/octicons/#icon-list)**: A collection of GitHub Octicons that can be easily integrated into Retype-powered documentation, perfect for adding icons to enhance your documentation pages.
+- **[GitHub Docs](https://docs.github.com/)**: The official GitHub documentation. Learn about GitHub features, commands, workflows, and tips for managing repositories, handling pull requests, and more.
+- **[Pro Git Book](https://git-scm.com/book/en/v2)**: A free online book that covers everything you need to know about Git, from the basics to advanced topics like branching and Git workflows.
+- **[GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)**: An explanation of the GitHub Flow, a lightweight, branch-based workflow that supports teams and projects in version control.
+- **[Semantic Commit Messages](https://gist.github.com/joshbuchea/01f9d4aa31638a2b95b8)**: A guide to writing clear and concise commit messages using semantic conventions, which helps maintain an organized commit history.
+- **[Learn Git Branching](https://learngitbranching.js.org/)**: An interactive Git learning game that helps you practice and understand Git branching, merging, and rebasing.
+- **[GitHub CLI](https://cli.github.com/)**: GitHub’s command-line tool for managing pull requests, issues, and repositories directly from your terminal.
+
+These resources will help you with everything from mastering Markdown to understanding Git workflows, writing better commit messages, and effectively using GitHub tools.
