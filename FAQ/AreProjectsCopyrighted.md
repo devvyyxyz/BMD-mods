@@ -8,4 +8,4 @@ tags: [faq]
 expanded: true
 visibility: public
 ---
-Aside from the *third-party* node modules they use, no, projects are not licensed nor copyrighted. You can sell them. Although, if you're using someone else's project, it can be copyrighted or licensed!
+Aside from the third-party node modules, no, the projects themselves aren’t licensed or copyrighted. You’re free to sell them! Just keep in mind that if you’re using someone else’s project, it may be copyrighted or licensed.

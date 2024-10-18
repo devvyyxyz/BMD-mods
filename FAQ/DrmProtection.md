@@ -8,4 +8,5 @@ tags: [faq]
 expanded: true
 visibility: public
 ---
-No. You can share it around with your friends!
+# Is BMD DRM protected?
+Nope! Feel free to share it with your friends!

@@ -9,63 +9,87 @@ expanded: true
 order: 2
 visibility: public
 ---
-# Why Choose Bot Maker For Discord
-Note: I have tried being as un-biased as possible. The following statements are purely factual and not personal opinion.
+# Why Choose Bot Maker for Discord
 
-The bot makers I will be comparing this app with will be the following: 
-- Discord Bot Maker
-- Discord Bot Builder
-- Bot Studio for Discord
+!!!Primary Note
+I have tried to be as unbiased as possible. The following statements are purely factual and not personal opinions.
+!!!
 
-# Generalized usertypes
-- I want the latest Discord API features without having the app -> BMD
+## Comparison with Other Bot Makers
+The bot makers I will be comparing this app with are:
+- **Discord Bot Maker (DBM)**
+- **Discord Bot Builder (DBB)**
+- **Bot Studio for Discord (BS(f)D)**
 
-- I'm fine with modding the app for extra features -> DBB, BMD\*, DBM\*
- - DBM-Mods doesn't include the latest Discord API v10 features.
- - BMD has a pretty wide range of mods, but you won't find yourself using them quite often since the app's base includes plenty of futures.
+## Generalized User Types
+- **I want the latest Discord API features without having the app:**  
+  **Bot Maker for Discord (BMD)**
 
-- I want stability & wouldn't mind having an outdated featureset -> DBM, BS(f)D\*
- - BS(f)D has a very mediocre base & mods cannot be used within events (which are used even by commands, in some cases). It's integration of slash commands, buttons and select menus is an afterthought and is not enjoyable for day-to-day usage.
+- **I’m fine with modding the app for extra features:**  
+  **DBB, BMD\*, DBM\***  
+  - Note: DBM-Mods doesn’t include the latest Discord API v10 features.  
+  - BMD has a wide range of mods, but the app's base includes plenty of features, reducing the need for them.
 
-- I want a bot maker with lots of video tutorials -> DBM, BS(f)D\*
- - A lot of BS(f)D tutorials are under the name of "Discord Bot Studio" due to a name change.
+- **I want stability and wouldn’t mind having an outdated feature set:**  
+  **DBM, BS(f)D\***  
+  - BS(f)D has a mediocre base, and mods cannot be used within events, which are essential for command functionality. Its integration of slash commands, buttons, and select menus is lacking.
 
-- I want an app that's in active development -> BMD\*, DBB\*
- - Rat is a human and cannot include more than a few suggestions in each update, therefore BMD may not always have the features you suggest.
- - DBB has shown little update activity recently. The app's developer went on a lengthy break before releasing an update. Developer claims they didn't take a break off and just fully rewrote the app.
+- **I want a bot maker with lots of video tutorials:**  
+  **DBM, BS(f)D\***  
+  - Many BS(f)D tutorials are under the name "Discord Bot Studio" due to a name change.
 
-- I want something that I can speedrun -> BMD, DBM
+- **I want an app that's in active development:**  
+  **BMD\*, DBB\***  
+  - Rat is a human and cannot incorporate all suggestions in each update, so BMD may not always have the features you suggest.  
+  - DBB has shown limited update activity recently; the developer went on a lengthy break before releasing an update.
 
-- I want something that's easily readable (allowing me pick up where I left off the next day after doing progress on command) -> BMD, DBM
- - Due to extreme similarities inbetween DBM and BMD, they are basically identical in this chapter.
- - Discord Bot Builder would've been included, but workspaces can get cluttered easily. 
+- **I want something that I can speedrun:**  
+  **BMD, DBM**
 
-- I'm an organization freak -> BMD, DBM
+- **I want something that's easily readable (allowing me to pick up where I left off the next day):**  
+  **BMD, DBM**  
+  - Due to extreme similarities between DBM and BMD, they are practically identical in this regard.  
+  - Discord Bot Builder would be included, but workspaces can get cluttered easily.
 
-- I want customization -> BMD
+- **I’m an organization freak:**  
+  **BMD, DBM**
 
-# Pros-and-cons
-- Bot Maker for Discord
- - [PRO] up-to-date
- - [PRO] uses oceanic.js instead of discord.js, providing less ram usage
- - [PRO] heavily focuses on speed of navigation / making repetitive tasks less tedious
- - [PRO] constantly improving
- - [PRO] humane design
- - [PRO] convenience & convenient features (command aliases, cooldowns, mods are not essential
- - [PRO] themable
- - [PRO] no DRM & no license/copyright applied to your project (except the node modules').
- - [PRO] project manager (manage multiple projects at a time)
- - [CON] new features may be unstable
- - [CON] not that accessible
-- Discord Bot Maker
- - [PRO] Huge community 
- - [PRO] Stable
- - [PRO] Plenty of mods
- - [CON] Outdated (Discord 
-API v9)
- - [CON] No longer maintained 
-- Discord Bot Builder
- - [PRO] Easier to pick up
- - [PRO] In somewhat active development 
- - [CON] Heavily relies on the modding community for most features
- - [CON] Gets messy really fast
+- **I want customization:**  
+  **BMD**
+
+## Pros and Cons
+
+### Bot Maker for Discord
+- **Pros:**
+  - Up-to-date
+  - Uses oceanic.js instead of discord.js, resulting in lower RAM usage
+  - Focuses on speed of navigation and reducing tedious tasks
+  - Constantly improving
+  - Humane design
+  - Convenient features (command aliases, cooldowns; mods are not essential)
+  - Theming options available
+  - No DRM or license/copyright applied to your project (except for node modules)
+  - Project manager (manage multiple projects simultaneously)
+
+- **Cons:**
+  - New features may be unstable
+  - Accessibility could be improved
+
+### Discord Bot Maker
+- **Pros:**
+  - Huge community
+  - Stable
+  - Plenty of mods
+
+- **Cons:**
+  - Outdated (Discord API v9)
+  - No longer maintained
+
+### Discord Bot Builder
+- **Pros:**
+  - Easier to pick up
+  - Somewhat active development
+
+- **Cons:**
+  - Heavily relies on the modding community for most features
+  - Can become messy quickly
