@@ -78,3 +78,34 @@ Here are some helpful resources to assist you in contributing to this repository
 - **[GitHub CLI](https://cli.github.com/)**: GitHub’s command-line tool for managing pull requests, issues, and repositories directly from your terminal.
 
 These resources will help you with everything from mastering Markdown to understanding Git workflows, writing better commit messages, and effectively using GitHub tools.
+
+## Template page
+[!ref](template.md)
++++ Code
+:::code source="template.md" :::
++++ demo
+## Welcome to the Template Page
+
+This is a sample template page. You can use this as a starting point for creating new pages in your project.
+
+### Table of Contents
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Conclusion](#conclusion)
+
+### Introduction
+Provide an introduction to the template page here. Explain the purpose and any relevant background information.
+
+### Usage
+Describe how to use this template. Include any necessary steps or instructions.
+
+### Examples
+Provide examples of how this template can be used. Include code snippets or screenshots if applicable.
+
+### Conclusion
+Summarize the key points of the template page. Include any final thoughts or recommendations.
+
+Feel free to customize this template to fit your needs.
+
++++
