@@ -1,5 +1,12 @@
 ---
-layout: page
+icon: commit
+label: Uploading & contributing
+description: 
+layout: defualt
+categories: [guide]
+tags: [guide]
+expanded: true
+visibility: public
 ---
 ## Uploading Mods via GitHub Pull Requests
 

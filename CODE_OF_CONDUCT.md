@@ -1,5 +1,12 @@
 ---
-layout: page
+icon: code-of-conduct
+label: Code of conduct
+description: 
+layout: defualt
+categories: [guide]
+tags: [guide, codeofconduct, legal]
+expanded: true
+visibility: public
 ---
 # Contributor Covenant Code of Conduct
 

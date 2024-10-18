@@ -1,5 +1,12 @@
 ---
-layout: page
+icon: cpu
+label: Creating Mods
+description: 
+layout: defualt
+categories: [guide]
+tags: [guide]
+expanded: true
+visibility: public
 ---
 # Creating Mods
 

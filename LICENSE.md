@@ -1,5 +1,12 @@
 ---
-layout: page
+icon: log
+label: License
+description: 
+layout: defualt
+categories: [guide]
+tags: [guide, legal, license]
+expanded: true
+visibility: public
 ---
 MIT License
 
