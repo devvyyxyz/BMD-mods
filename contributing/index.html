@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/BMD-mods">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782601945857">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782602822421">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,12 +33,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.782601945857" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.782602822421" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.782601945857" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.782602822421" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.782601945857" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.6.0.782601945857" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.782602822421" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.6.0.782602822421" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -367,6 +367,133 @@ git commit -m &quot;Add my new mod [describe what the mod does]&quot;</code></pr
 <li><strong><a href="https://cli.github.com/">GitHub CLI</a></strong>: GitHub’s command-line tool for managing pull requests, issues, and repositories directly from your terminal.</li>
 </ul>
 <p>These resources will help you with everything from mastering Markdown to understanding Git workflows, writing better commit messages, and effectively using GitHub tools.</p>
+<doc-anchor-target id="template-page">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#template-page">#</doc-anchor-trigger>
+        <span>Template page</span>
+    </h2>
+</doc-anchor-target>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
+    <div class="flex items-center text-blue-500 dark:text-blue-400">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">template</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>../template/</span>
+    </div>
+    <a href="../template/" class="absolute block inset-0"></a>
+</div>
+</p>
+<doc-tabs>
+<doc-tab v-cloak id="code">
+<template #title>Code</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markdown"><code v-pre class="language-markdown">---
+icon: repo-template # icons can be found at https://primer.github.io/octicons/
+image: https://picsum.photos/200/300
+
+label: template # text that shows in the left sidebar
+description: This is a custom description for this page # the pages description that shows in embed on discord or google search
+date: 2020-11-25T15:30 # November 25, 2020 at 15:30 (3:30 PM)
+
+layout: defualt # refer too https://retype.com/configuration/page/#layout
+
+categories: [general] # what categories the page should show in
+tags: [guide, basic, installation] # tags for page so it can be catagorised
+authors:
+  - name: name
+    email: email@example.com
+    link: https://example.com/
+    avatar: https://example.com/frank.jpg
+  - name
+  - email@example.com
+
+visibility: hidden # refer too https://retype.com/configuration/page/#visibility
+
+order: 100
+templating: false # boolean for if templating should be enabled
+expanded: true # boolean for if the pages folder should be open or collapsed
+---
+## Welcome to the Template Page
+
+This is a sample template page. You can use this as a starting point for creating new pages in your project.
+
+### Table of Contents
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Conclusion](#conclusion)
+
+### Introduction
+Provide an introduction to the template page here. Explain the purpose and any relevant background information.
+
+### Usage
+Describe how to use this template. Include any necessary steps or instructions.
+
+### Examples
+Provide examples of how this template can be used. Include code snippets or screenshots if applicable.
+
+### Conclusion
+Summarize the key points of the template page. Include any final thoughts or recommendations.
+
+Feel free to customize this template to fit your needs.</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+<doc-tab v-cloak id="demo">
+<template #title>demo</template>
+<doc-anchor-target id="welcome-to-the-template-page">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-the-template-page">#</doc-anchor-trigger>
+        <span>Welcome to the Template Page</span>
+    </h2>
+</doc-anchor-target>
+<p>This is a sample template page. You can use this as a starting point for creating new pages in your project.</p>
+<doc-anchor-target id="table-of-contents">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#table-of-contents">#</doc-anchor-trigger>
+        <span>Table of Contents</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><doc-anchor-trigger to="#introduction">Introduction</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#usage">Usage</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#examples">Examples</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#conclusion">Conclusion</doc-anchor-trigger></li>
+</ul>
+<doc-anchor-target id="introduction">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
+    </h3>
+</doc-anchor-target>
+<p>Provide an introduction to the template page here. Explain the purpose and any relevant background information.</p>
+<doc-anchor-target id="usage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#usage">#</doc-anchor-trigger>
+        <span>Usage</span>
+    </h3>
+</doc-anchor-target>
+<p>Describe how to use this template. Include any necessary steps or instructions.</p>
+<doc-anchor-target id="examples">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#examples">#</doc-anchor-trigger>
+        <span>Examples</span>
+    </h3>
+</doc-anchor-target>
+<p>Provide examples of how this template can be used. Include code snippets or screenshots if applicable.</p>
+<doc-anchor-target id="conclusion">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#conclusion">#</doc-anchor-trigger>
+        <span>Conclusion</span>
+    </h3>
+</doc-anchor-target>
+<p>Summarize the key points of the template page. Include any final thoughts or recommendations.</p>
+<p>Feel free to customize this template to fit your needs.</p>
+</doc-tab>
+</doc-tabs>
 
                                 <div class="flex items-center mt-6 mb-6 clear-both">
                                     <span>
@@ -392,7 +519,7 @@ git commit -m &quot;Add my new mod [describe what the mod does]&quot;</code></pr
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../license/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../license/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
@@ -402,13 +529,6 @@ git commit -m &quot;Add my new mod [describe what the mod does]&quot;</code></pr
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../template/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Welcome</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
