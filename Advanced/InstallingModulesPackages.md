@@ -1,5 +1,5 @@
 ---
-icon: home
+icon: package
 label: Installing Packages & Modules
 description: How to install packages and modules into BMD
 layout: defualt
