@@ -52,11 +52,11 @@ url: https://devvyyxyz.github.io/BMD-mods             # The base URL of your web
 # -----------------------------------------------------------------------------
 
 branding:
-  title: BMFD Mods          # Your custom website title; keep it short
-  logo:             # Path to a logo file
-  logoDark:    # Path to a logo file to use in dark mode
-  logoAlign: right            # Align the logo to the right or the left
-  label: DOCS                 # Optional label
+  title: BMFD Mods & Themes
+  logo: assets/BmdMods.png
+  logoDark: assets/BmdMods.png
+  logoAlign: left            # Align the logo to the right or the left
+  label:                  # Optional label
                               # To remove the label, remove this config
   colors:
     label:                    # Label colors
@@ -72,10 +72,10 @@ links:                        # Custom links to add to the top bar
   icon: bookmark-fill
 - text: Steam guides
   link: https://steamcommunity.com/sharedfiles/filedetails/?id=3045684418
-  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png
+  icon: assets/Steam.png
 - text: Discord Server
   link: https://discord.gg/k8npSHv2Cz
-  icon: home-fill
+  icon: assets/Discord.png
 - text: Download
   link: https://store.steampowered.com/app/2592170/Studio_Bot_Maker/
   icon: download
