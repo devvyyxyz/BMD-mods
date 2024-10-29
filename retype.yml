@@ -90,13 +90,21 @@ links:                        # Custom links to add to the top bar
 # -----------------------------------------------------------------------------
 
 footer:
-  copyright: "© All rights reserved." # A custom copyright statement
+  copyright: "BMD Mods © All rights reserved." # A custom copyright statement
   links:                      # A list of links to include in the footer
                               # See also: links
     - text: License
       link: LICENSE.md
+      icon: log
     - text: Code of conduct
       link: CODE_OF_CONDUCT.md
+      icon: code-of-conduct
+    - text: Download
+      link: https://store.steampowered.com/app/2592170/Studio_Bot_Maker/
+      icon: assets/Steam.png
+    - text: Source
+      link: https://github.com/devvyyxyz/BMD-mods
+      icon: assets/GitHub.svg
 
 # -----------------------------------------------------------------------------
 
@@ -114,7 +122,7 @@ cname: false           # The CNAME file value
 edit:
   repo: "https://github.com/devvyyxyz/BMD-mods"                    # The URL to source files for this project
   base: ""                    # Optional base path to a directory within repo
-  branch: ""                  # Point to a custom branch within the repo
+  branch: "dev"                  # Point to a custom branch within the repo
   label: "Edit this page"     # A custom label for the generated link
 
 # -----------------------------------------------------------------------------
