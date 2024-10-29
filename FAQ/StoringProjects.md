@@ -1,7 +1,7 @@
 ---
 icon: file-directory-open-fill
 label: Storage Best Practices
-description: Where to store you BMD bot project
+description: Where to store you BMD bot project and the best practices
 layout: defualt
 categories: [faq]
 tags: [faq, project]
