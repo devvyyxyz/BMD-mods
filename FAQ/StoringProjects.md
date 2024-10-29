@@ -119,11 +119,19 @@ Implement Git or another VCS for tracking changes and collaborating. Here’s ho
 
 #### Step 1: Install Git
 1. Install Git using your package manager:
+    +++ Debian/Ubuntu
     ```bash
-    sudo apt install git   # Debian/Ubuntu
-    sudo dnf install git   # Fedora
-    sudo pacman -S git     # Arch
+    sudo apt install git
     ```
+    +++ Fedora
+    ```bash
+    sudo dnf install git
+    ```
+    +++ Arch
+    ```bash
+    sudo pacman -S git 
+    ```
+    +++
 2. Configure Git:
     ```bash
     git config --global user.name "Your Name"
