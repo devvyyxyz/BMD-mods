@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/BMD-mods">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783554963245">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783555152111">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,12 +33,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.783554963245" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.783555152111" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783554963245" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783555152111" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783554963245" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.783554963245" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783555152111" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.783555152111" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -264,20 +264,47 @@
     <div><a href="../../categories/advanced/">advanced</a></div>
 </div>
 
-<doc-anchor-target id="installing-packages-in-bmd">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#installing-packages-in-bmd">#</doc-anchor-trigger>
-        <span>Installing Packages in BMD</span>
-    </h2>
+<p>To install packages in Bot Maker For Discord (BMD), use the following commands, depending on your operating system:</p>
+<doc-anchor-target id="windows">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#windows">#</doc-anchor-trigger>
+        <span>Windows</span>
+    </h3>
 </doc-anchor-target>
-<p>To install packages in Bot Maker For Discord, use the following command in your terminal:</p>
+<ol>
+<li><p>Open your terminal and use the following command:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-bash"><code v-pre class="language-bash">pnpm i &lt;package_name&gt;</code></pre>
 </doc-codeblock></div>
-<p>Make sure to navigate to the BMD installation directory before running the command. By default, BMD is installed here:</p>
+</li>
+<li><p>Make sure to navigate to the BMD installation directory before running the command. By default, BMD is installed here:</p>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
 <div class="codeblock-title">plaintext</div>
 <pre class="language-none"><code v-pre class="language-none">C:\Program Files (x86)\Steam\steamapps\common\Bot Maker For Discord</code></pre>
+</doc-codeblock></div>
+</li>
+</ol>
+<doc-anchor-target id="linux">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux">#</doc-anchor-trigger>
+        <span>Linux</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li><p><strong>Navigate to the BMD directory.</strong> You may need to locate it based on where you installed Steam, such as in the default directory:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">cd ~/.steam/steam/steamapps/common/Bot\ Maker\ For\ Discord</code></pre>
+</doc-codeblock></div>
+</li>
+<li><p><strong>Install the package</strong> using <code v-pre>pnpm</code>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">pnpm i &lt;package_name&gt;</code></pre>
+</doc-codeblock></div>
+</li>
+</ol>
+<p>Ensure <code v-pre>pnpm</code> is installed on your system. You can install it using <code v-pre>npm</code> with:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">npm install -g pnpm</code></pre>
 </doc-codeblock></div>
 
                                 <div class="flex items-center mt-6 mb-6 clear-both">
