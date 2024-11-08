@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/7e1d5fe3-f1d6-46b8-b549-b53660709a37)---
 icon: https://static-00.iconduck.com/assets.00/raspberry-pi-icon-2048x2048-p0y4r07x.png
 label: Raspberry Pi
 description: 
@@ -19,16 +19,76 @@ sudo apt upgrade
 
 We can now proceed with installing NodeJS:
 ```bash
-sudo apt install nodejs -y
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
+sudo apt-get install -y nodejs
 ```
 
 To confirm that we have now successfully installed NodeJS, we can run the following command:
 ```bash
 node -v
+npm -v
+```
+
+Now we need to install a module called pnpm which we will be using later on
+
+```bash
+sudo npm i pnpm -g
 ```
 
 **Uploading Bot Project**
 
-FileZilla is the easiest method to upload your bot files however we need to connect our Raspberry Pi. (SFTP - SSH File Transfer Protocol)
+FileZilla is the easiest method to upload your bot files. However, we need to connect our Raspberry Pi first.
 
-*TBA*
+Firstly, we need to open Site Manager and create a New Site:
+
+- Host = IP of your Raspberry Pi
+- Port = 22
+- Protocol = SFTP - SSH File Transfer Protocol
+- Logon Type = Ask For Password *(Personal preference)*
+- User = Username of your Raspberry Pi
+- Password = Your Raspberry Pi SSH password
+
+![](https://i.imgur.com/EAbeipr.png)
+
+Once you have saved and successfully connected, you can now drag and drop your exported files to the Raspberry Pi!
+
+Back to the SSH terminal, we need to find the folder. In my use case, it would be in `/home/df/bmd-bot`, so I type in `cd /home/df/bmd-bot`.
+
+Before we begin to run the bot, we need to install modules in order for the Discord bot to function:
+
+```bash
+pnpm i
+```
+
+!!!secondary  Note
+Any errors like **WARN** deprecated can be safely ignored.
+!!!
+
+Finally, run the command `node bot.js` and now the bot is hosted on your Raspberry Pi. Yippie!
+
+You can now close your FileZilla until you need it again in the future.
+
+!!!warning Disclaimer
+Closing down terminal or shutting down your raspberry pi will cause bot to offline.
+!!!
+
+**PM2 (Optional)**
+
+![](https://github.com/user-attachments/assets/c25f8185-a1fd-4217-8807-50b2f1e40120)
+
+```bash
+npm i pm2 -g
+```
+
+Navigate to your bot folder and enter the following command:
+```bash
+sudo pm2 start bot.js --name <app_name>
+```
+
+**Example:**
+
+`sudo pm2 start bot.js --name TheBestBotEver`
+
+You can go even further by configuring PM2 to restart your bot when files change, set a memory threshold for bot reload, and much more. For detailed instructions, visit https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page
+
+To check your bot's usage, enter: `sudo pm2 monit`.
