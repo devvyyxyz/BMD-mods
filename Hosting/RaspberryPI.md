@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7e1d5fe3-f1d6-46b8-b549-b53660709a37)---
+---
 icon: https://static-00.iconduck.com/assets.00/raspberry-pi-icon-2048x2048-p0y4r07x.png
 label: Raspberry Pi
 description: 
@@ -8,6 +8,7 @@ tags: [hosting, freehost, paidhost]
 expanded: true
 visibility: public
 ---
+![image](https://github.com/user-attachments/assets/7e1d5fe3-f1d6-46b8-b549-b53660709a37)
 
 **Installing NodeJS on Raspberry Pi**
 
