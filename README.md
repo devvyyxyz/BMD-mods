@@ -74,3 +74,22 @@ Join our community on the [Discord server](https://discord.gg/whtjS7BW3u) for su
 ## License
 
 This project is distributed under the [MIT License](LICENSE).
+
+
+
+
+
+#### Pages coming soon...
+faq:
+- does BMD limit the amount of sub commands? No Discord does
+- how to host a bot?
+- creating folders & managing commmands
+Common errors:
+- missing intents
+- missing permissions
+- invalid/missing bot token
+-  interaction has already been acknowleged, replying too the same interaction twice
+- invalid form on put, invalid form.
+misc:
+- turning timestamps into readable text
+- global vars not showing
