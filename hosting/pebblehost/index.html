@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/BMD-mods">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785338906145">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785339339453">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -14,6 +14,7 @@
     <!-- Primary Meta Tags -->
     <title>Pebblehost | Bot Maker 4 Discord</title>
     <meta name="title" content="Pebblehost | Bot Maker 4 Discord">
+    <meta name="description" content="Our bot hosting service is incredibly flexible, however you’ll need to be aware of the following in order to ensure your bot is able to run:">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://devvyyxyz.github.io/BMD-mods/hosting/pebblehost/">
@@ -22,19 +23,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://devvyyxyz.github.io/BMD-mods/hosting/pebblehost/">
     <meta property="og:title" content="Pebblehost | Bot Maker 4 Discord">
+    <meta property="og:description" content="Our bot hosting service is incredibly flexible, however you’ll need to be aware of the following in order to ensure your bot is able to run:">
+    <meta property="og:image" content="https://github.com/user-attachments/assets/fca1621e-4130-493c-a738-90b2c35af61c">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://devvyyxyz.github.io/BMD-mods/hosting/pebblehost/">
     <meta property="twitter:title" content="Pebblehost | Bot Maker 4 Discord">
+    <meta property="twitter:description" content="Our bot hosting service is incredibly flexible, however you’ll need to be aware of the following in order to ensure your bot is able to run:">
+    <meta property="twitter:image" content="https://github.com/user-attachments/assets/fca1621e-4130-493c-a738-90b2c35af61c">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.785338906145" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.785339339453" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.785338906145" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.785339339453" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.785338906145" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.785339339453" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -256,6 +261,61 @@
     <div><a href="../../categories/hosting/">hosting</a></div>
 </div>
 
+<doc-anchor-target id="requirements">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#requirements">#</doc-anchor-trigger>
+        <span>Requirements</span>
+    </h2>
+</doc-anchor-target>
+<p>Our bot hosting service is incredibly flexible, however you’ll need to be aware of the following in order to ensure your bot is able to run:</p>
+<ul>
+<li>Your bot must not require a version of Java higher than 11 - we support Java 8, 11, 17 and 21, and we’ll walk you through how to switch that later in this guide.</li>
+<li>Your bot must be runnable via a <code v-pre>java -jar YourBot.jar</code> command (the name of the jar file can be anything you like of course), and must not require any extra arguments to be present.</li>
+</ul>
+<doc-anchor-target id="uploading-your-bots-files">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#uploading-your-bots-files">#</doc-anchor-trigger>
+        <span>Uploading your bot’s files</span>
+    </h2>
+</doc-anchor-target>
+<p>For this part, you’ll need to make sure you have all of the files that your bot requires. Most Java based bots will actually contain their necessary files in their jar file - however be sure to check your bot’s documentation to see if any other files need to be uploaded.</p>
+<p>To start uploading your files, head over to the <code v-pre>File Manager</code> link on the left sidebar of your panel. From there, you may see a few default files, which is fine.</p>
+<p>You can either drag your bot’s jar file (and any other extra files) directly from your computer to the File Manager, and it will begin uploading the files - or you can use the Upload -&gt; File button at the top left hand corner of the File Manager.</p>
+<p><figure class="content-center">
+    <img src="https://github.com/user-attachments/assets/fca1621e-4130-493c-a738-90b2c35af61c" alt="image">
+    <figcaption class="caption">image</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="https://github.com/user-attachments/assets/27f6ada0-da1f-4968-ae3b-7e0ebd7c43cb" alt="image">
+    <figcaption class="caption">image</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="setting-up-the-java-config">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-the-java-config">#</doc-anchor-trigger>
+        <span>Setting up the Java config</span>
+    </h2>
+</doc-anchor-target>
+<p>As our final steps for setting up your bot, you will want to click the <code v-pre>pebble-java-config.json</code> file in the File Manager - this is where you will specify your bot’s file name, as well as set the Java version you’d like to use.</p>
+<p><figure class="content-center">
+    <img src="https://github.com/user-attachments/assets/86fdc6e1-09d5-4b4a-b81b-21961e22219b" alt="image">
+    <figcaption class="caption">image</figcaption>
+</figure>
+</p>
+<p>By default, you’ll see <code v-pre>&quot;main&quot;:null&quot;</code> - we’ll replace null with <code v-pre>TestBot.jar</code> or the actual name of your bot’s file. While you’re here, if you need to use Java 11 you can set the <code v-pre>&quot;java_version&quot;</code> to <code v-pre>11</code> or <code v-pre>17</code> for Java 17. Don’t forget to save the file once you’re done!</p>
+<doc-anchor-target id="starting-your-bot-up">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#starting-your-bot-up">#</doc-anchor-trigger>
+        <span>Starting your bot up</span>
+    </h2>
+</doc-anchor-target>
+<p>Now that we’ve done this, head back to the main page and click the <code v-pre>Console</code> link on the left sidebar. Then, press <code v-pre>Start</code> to launch your bot!</p>
+<p><figure class="content-center">
+    <img src="https://github.com/user-attachments/assets/1aa20dc0-9b07-44bd-b61a-9c8fc356218a" alt="image">
+    <figcaption class="caption">image</figcaption>
+</figure>
+</p>
 
                                 <div class="flex items-center mt-6 mb-6 clear-both">
                                     <span>
