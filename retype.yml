@@ -53,8 +53,8 @@ url: https://devvyyxyz.github.io/BMD-mods             # The base URL of your web
 
 branding:
   title: BMFD Mods & Themes
-  logo: assets/BmdMods.png
-  logoDark: assets/BmdMods.png
+  logo: assets/BmdMods2.png
+  logoDark: assets/BmdMods2.png
   logoAlign: left            # Align the logo to the right or the left
   label:                  # Optional label
                               # To remove the label, remove this config
