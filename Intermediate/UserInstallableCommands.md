@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: User-Installable Commands
 description:
 layout: defualt

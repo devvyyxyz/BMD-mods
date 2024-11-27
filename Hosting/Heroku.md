@@ -1,5 +1,5 @@
 ---
-icon: https://static-00.iconduck.com/assets.00/heroku-icon-1024x1024-wdnt2aoy.png
+icon: dot-fill
 label: Heroku
 description: 
 layout: defualt
