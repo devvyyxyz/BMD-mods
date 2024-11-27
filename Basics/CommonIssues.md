@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: Commonly met issues
 description: 
 layout: defualt

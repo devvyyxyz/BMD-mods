@@ -1,5 +1,5 @@
 ---
-icon: credit-card
+icon: dot-fill
 label: Is BMD free?
 description: 
 layout: defualt

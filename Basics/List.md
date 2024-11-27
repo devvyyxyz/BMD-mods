@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: Lists
 description:
 layout: defualt

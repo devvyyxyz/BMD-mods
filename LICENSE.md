@@ -6,7 +6,7 @@ layout: defualt
 categories: [guide]
 tags: [guide, legal, license]
 expanded: true
-visibility: public
+visibility: default
 ---
 MIT License
 

@@ -6,7 +6,7 @@ layout: defualt
 categories: [guide]
 tags: [guide, codeofconduct, legal]
 expanded: true
-visibility: public
+visibility: default
 ---
 # Contributor Covenant Code of Conduct
 

@@ -1,5 +1,5 @@
 ---
-icon: file-directory-open-fill
+icon: dot-fill
 label: How to modify app files?
 description: 
 layout: defualt

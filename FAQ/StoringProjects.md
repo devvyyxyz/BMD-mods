@@ -1,5 +1,5 @@
 ---
-icon: file-directory-open-fill
+icon: dot-fill
 label: Storage Best Practices
 description: Where to store you BMD bot project and the best practices
 layout: defualt

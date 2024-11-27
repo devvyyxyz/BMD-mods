@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: Setup
 description: 
 layout: defualt

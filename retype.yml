@@ -69,7 +69,7 @@ links:                        # Custom links to add to the top bar
                               # See also: footer.links
 - text: Old guides
   link: https://botmakerfordiscord.gitbook.io/manual
-  icon: bookmark-fill
+  icon: repo
 - text: Steam guides
   link: https://steamcommunity.com/sharedfiles/filedetails/?id=3045684418
   icon: assets/Steam.png
@@ -78,10 +78,10 @@ links:                        # Custom links to add to the top bar
   icon: assets/Discord.png
 - text: Download
   link: https://store.steampowered.com/app/2592170/Studio_Bot_Maker/
-  icon: download
+  icon: move-to-bottom
 - text: BMFD manager
   link: https://github.com/qizzle/bmdm
-  icon: database
+  icon: code
                               # a path to a file
   iconAlign: left           # Icon alignment, to the left or right
   target: blank             # Custom target
@@ -99,12 +99,15 @@ footer:
     - text: Code of conduct
       link: CODE_OF_CONDUCT.md
       icon: code-of-conduct
+    - text: Contributing
+      link: CONTRIBUTING
+      icon: git-branch
     - text: Download
       link: https://store.steampowered.com/app/2592170/Studio_Bot_Maker/
       icon: assets/Steam.png
     - text: Source
       link: https://github.com/devvyyxyz/BMD-mods
-      icon: assets/GitHub.svg
+      icon: mark-github
 
 # -----------------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 ---
-icon: tools
+icon: archive
 label: Update history
 description: Update history of BMD
 layout: defualt

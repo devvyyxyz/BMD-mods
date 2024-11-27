@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: "[User / Member / Etc] Data"
 description: 
 layout: defualt

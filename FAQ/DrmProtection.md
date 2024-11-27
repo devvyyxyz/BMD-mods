@@ -1,5 +1,5 @@
 ---
-icon: law
+icon: dot-fill
 label: Is BMD DRM protected?
 description: 
 layout: defualt

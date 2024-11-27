@@ -1,5 +1,5 @@
 ---
-icon: heart-fill
+icon: dot-fill
 label: Why BMD?
 description: Welcome page
 layout: defualt

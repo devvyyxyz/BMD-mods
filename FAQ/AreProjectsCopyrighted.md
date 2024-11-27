@@ -1,5 +1,5 @@
 ---
-icon: law
+icon: dot-fill
 label: Are projects copyrighted?
 description: 
 layout: defualt

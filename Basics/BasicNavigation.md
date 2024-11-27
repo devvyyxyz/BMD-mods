@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: Basic navigation
 description: 
 layout: defualt

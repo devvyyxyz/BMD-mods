@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: Skipping, Jumping and Anchors 
 description:
 layout: defualt

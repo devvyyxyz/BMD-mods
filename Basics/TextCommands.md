@@ -1,5 +1,5 @@
 ---
-icon: apps
+icon: dot-fill
 label: Text commands
 description: 
 layout: defualt
