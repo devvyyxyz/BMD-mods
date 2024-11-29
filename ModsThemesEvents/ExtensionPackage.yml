@@ -1,0 +1,9 @@
+icon: dot-fill
+label: Extension packages
+description: 
+layout: defualt
+categories: [mods, theme, event]
+tags: [guide, mod, theme, event]
+expanded: true
+order: 
+visibility: public

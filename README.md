@@ -1,14 +1,3 @@
----
-icon: home
-label: Welcome
-description: Welcome page
-layout: defualt
-categories: [general]
-tags: [guide, basic, installation]
-expanded: true
-visibility: public
-templating: false
----
 # Community Mods for [Bot Maker for Discord](https://store.steampowered.com/app/2592170/Bot_Maker_For_Discord/)
 
 This repository houses community-made mods for Bot Maker for Discord (BMD).

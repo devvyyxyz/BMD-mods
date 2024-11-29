@@ -1,0 +1,9 @@
+icon: home
+label: Home
+description: Welcome page
+layout: defualt
+categories: [general]
+tags: [guide, basic, installation]
+expanded: true
+visibility: public
+templating: false
